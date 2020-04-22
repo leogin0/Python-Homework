@@ -2,7 +2,7 @@
 
 import jieba
 try:
-txt = open("D:\homework3\文章.txt", "r", encoding='utf-8').read()
+    txt = open("homework3/文章.txt", "r", encoding='utf-8').read()
 except IOError:
     print('Error:没有找到文件或文件读取失败')
 

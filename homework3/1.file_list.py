@@ -11,7 +11,7 @@ while True:
         l1.append(p1)
 
 try:
-    with open("/homework3/input.txt",'w') as f1:
+    with open("homework3\\input.txt",'w') as f1:
         f1.write('\n'.join(l1))
 except IOError:
     print("Error:没有找到文件或文件读取失败")

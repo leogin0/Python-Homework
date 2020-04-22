@@ -5,7 +5,7 @@ import requests
 
 url = "http://pic49.nipic.com/file/20140922/2531170_191654419000_2.jpg"
 
-path ='D:/homework4/'  + url.split('/')[-1]
+path ='D:/'  + url.split('/')[-1]
 
 try:
 

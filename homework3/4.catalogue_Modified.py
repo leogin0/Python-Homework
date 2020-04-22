@@ -13,11 +13,11 @@ try:
 except OSError:
     print('目录已存在，无法创建目录')
 
-    files = os.listdir("D:\myyy\img")#列出当前目录下所有的文件
+    files = os.listdir("D:\\myyy\\img")#列出当前目录下所有的文件
     for filename in files:
       portion = os.path.splitext(filename)#分离文件名字和后缀
       if portion[1] == ".png" :
           newname = portion[0] + ".jpg"    
-          os.chdir("D:\myyy\img")
+          os.chdir("D:\\myyy\\img")
           os.rename(filename,newname)
           print("修改%s - %s成功！"%(filename,newname))

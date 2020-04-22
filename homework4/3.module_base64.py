@@ -9,7 +9,7 @@ for i in range(5):
     password = str(base64.b64encode(input('密码：').encode("utf8")) , encoding='utf8')
     lt = [name , account , password]
     l1.append(lt)
-with open('D:/homework4/classmates','w') as f:
+with open('homework4/classmates','w') as f:
     for i in range(5):
         for j in range(3):
             f.write(l1[i][j] + ' ')

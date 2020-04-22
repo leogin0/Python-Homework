@@ -29,8 +29,8 @@ def contrast(l1,l2):
 
 l1 = []
 l2 = []
-l1 = times(getText('D:\homework3\d1.txt'),'D:\homework3\c1.txt')
-l2 = times(getText('D:\homework3\d2.txt'),'D:\homework3\c2.txt')
+l1 = times(getText('homework3/d1.txt'),'homework3/c1.txt')
+l2 = times(getText('homework3/d2.txt'),'homework3/c2.txt')
 contrast(l1,l2)
 
 

@@ -2,9 +2,10 @@
 
 def getText():
     try:
-        txt = open('D:\homework3\《老人与海》[英文版].txt','r',encoding='utf8').read()
+        txt = open('homework3\\《老人与海》[英文版].txt','r',encoding='utf8').read()
     except IOError:
-    print('Error:没有找到文件或文件读取失败')
+        print('Error:没有找到文件或文件读取失败')
+    
     txt = txt.lower()
     for ch in '|"#$%&^*()_+{}:<>?@\,~!.\n':
         txt = txt.replace(ch,' ')

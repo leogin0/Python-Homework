@@ -6,7 +6,7 @@
 import base64
 import re
 
-with open('D:/homework4/classmates','r') as f1:
+with open('homework4\\classmates.txt','r') as f1:
     line = f1.readline()
     l1 = []
     while line:
@@ -18,7 +18,7 @@ with open('D:/homework4/classmates','r') as f1:
 name = input('请输入登录同学姓名：')
 
 if name in l1:
-    with open('D:/homework4/classmates','r') as f2:
+    with open('homework4\\classmates.txt','r') as f2:
         l2 = []
         for line in f2:
             if line.strip():
