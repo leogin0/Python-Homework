@@ -1,0 +1,10 @@
+101 alice 80
+102 bob 81
+103 cendy 83
+104 dad 85
+105 elle 90
+106 fork 91
+107 jack 92
+108 gun 93
+109 huge 94
+110 kaw 99
